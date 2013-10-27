@@ -10,8 +10,9 @@ Stream music
 - Search songs
 
 ## To do list
-- Build the interface
-- Db structure
-- - User module
-- - File module
-- API
+### Build the interface
+### Db structure
+- User module
+- File module
+
+### API
