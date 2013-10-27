@@ -1,0 +1,13 @@
+extends layout
+
+block content
+	form(method='POST', action='/users')
+		input(type='text', placeholder='enter username', name='username')
+		input(type='password', placeholder='enter password', name='password')
+		input(type='text', placeholder='enter name', name='name')
+		input(type='submit', name='submit', value='submit')
+	hr
+	form(method='POST', action='/login')
+		input(type='text', placeholder='Enter username', name='username')
+		input(type='password', placeholder='password', name='password')
+		input(type='submit', name='submit', value='submit')
