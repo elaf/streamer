@@ -13,3 +13,4 @@ Stream music
 - Build the interface
 - Db structure
 - API
+- User module
